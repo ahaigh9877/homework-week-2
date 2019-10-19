@@ -21,7 +21,7 @@ class ShoppingCart {
     }
 
     total() {
-        return this.items.map(items => items.quantity * items.pricePerUnit).reduce(((a,b) => a + b),0)
+        return this.items.map(items => items.quantity * items.pricePerUnit).reduce( ((a,b) => a + b) ,0)
     }
 }
 

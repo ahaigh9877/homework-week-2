@@ -30,26 +30,3 @@ module.exports.groupAdultsByAgeRange = function(array) {
 
     return result
 }
-
-//console.log(typeof groupAdultsByAgeRange)
-
-// const answer = groupAdultsByAgeRange([
-//     {name: "Henry", age: 9},
-//     {name: "John", age: 20},
-//     {name: "Dave", age: 25},
-//     {name: "Anna", age: 31},
-//     {name: "John", age: 32},
-//     {name: "Hank", age: 60}
-// ])
-
-//console.log(answer)
-
-// const kiddis = groupAdultsByAgeRange([
-//     { name: "pete", age: 10 },
-//     { name: "dove", age: 17 },
-//   ])
-
-// console.log(kiddis)
-
-//module.exports = groupAdultsByAgeRange
-
